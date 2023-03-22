@@ -49,7 +49,7 @@ h1 {
 
 .subtext {
   font-size: 18px;
-  color: #E5E7EB
+  color: #E5E7EB;
 }
 
 .big-text {
@@ -122,4 +122,40 @@ button {
   font-weight: 800;
   text-align: right;
   max-width: 50%;
+}
+
+/* Section 4 */
+.section4 {
+  margin-top: 50px;
+  background-color: #3882F6;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between; 
+  max-width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.action-header {
+  font-size: 24px;
+  font-weight: 800;
+  color:#E5E7EB;
+
+  margin-bottom: -15px;
+}
+
+.action-text {
+  color:#E5E7EB;
+  font-size: 18px;
+}
+
+.button2 {
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
 }
