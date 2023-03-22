@@ -35,6 +35,7 @@ h1 {
   max-width: 100%;
   max-height: 300px;
   margin-left: 30px;
+  border-radius: 8px;
 }
 
 .section1 {
@@ -69,7 +70,7 @@ button {
 }
 
 /* Section 2 */
-.container-title {
+.section2-title {
   text-align: center;
   font-size: 36px;
   font-weight: 800;
@@ -77,15 +78,15 @@ button {
   margin-top: 48px;
 }
 
-.container {
+.section2 {
   display: flex;
   justify-content: center;
   margin-top: 50px;
   gap: 100px;
-
+  padding-bottom: 50px;
 }
 
-.container img {
+.section2 img {
   height: auto;
   width: 150px;
   height: 150px;
@@ -102,3 +103,23 @@ button {
 }
 
 /* Section 3 */
+.section3 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #E5E7EB;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  margin: auto;
+  max-width: 50%;
+}
+
+.name {
+  margin: auto;
+  font-size: 28px;
+  font-weight: 800;
+  text-align: right;
+  max-width: 50%;
+}
