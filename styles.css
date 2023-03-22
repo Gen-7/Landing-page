@@ -2,6 +2,7 @@
   font-family: Helvetica, sans-serif;
 }
 
+/* Header */
 .header {
   display: flex;
   background-color: #1F2937; 
@@ -28,7 +29,8 @@ h1 {
   color: #F9FAF8;
 }
 
-img {
+/* Section 1 */
+.section1 img {
   height: auto;
   max-width: 100%;
   max-height: 300px;
@@ -41,6 +43,7 @@ img {
   padding-left: 100px;
   padding-right: 100px;
   padding-bottom: 80px;
+  justify-content: center;
 }
 
 .subtext {
@@ -64,3 +67,38 @@ button {
   font-size: 18px;
   font-weight: 800;
 }
+
+/* Section 2 */
+.container-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 800;
+  color: #1F2937;
+  margin-top: 48px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 100px;
+
+}
+
+.container img {
+  height: auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+}
+
+.info {
+  max-width: 200px;
+  text-align: center;
+}
+
+.text {
+  font-size: 18px;
+}
+
+/* Section 3 */
